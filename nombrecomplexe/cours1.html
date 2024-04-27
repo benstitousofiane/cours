@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" integrity="sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww" crossorigin="anonymous">
+
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js" integrity="sha384-hIoBPJpTUs74ddyc4bFZSM1TVlQDA60VBbJS0oA934VSz82sBx1X7kSx2ATBDIyd" crossorigin="anonymous"></script>
+
+    <!-- To automatically render math in text elements, include the auto-render extension: -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js" integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cours </title>
+</head>
+<body>
+    <h1>
+        Nombre complexe cours 1 - Repère en deux dimensions
+    </h1>
+    <main>
+        <h2>
+            Dans ce chapitre nous verrons comment faire de la géométrie en deux dimension
+            par l'intermédiaire des nombre dit "complexe", ce sont des nombres qui sont ici
+            représentés géométriquement en deux dimension. Mais d'abord comment fonctionne
+            la représentation d'un point en deux dimensions ?
+        </h2>
+    </main>
+    <main>
+        <h2><u>Plan en deux dimensions</u> :
+        un plan en deux dimesion est construit à partir deux deux vecteurs dit "unitaires"
+        qui représente une unité dans la dimension où l'on représente un point, et d'un
+        point particulier appelé origine du plan. Les deux vecteurs unitaires sont appelés 
+        \(\vec{i}\) et \(\vec{j}\), l'origine est le point \(O(0;0)\), on note alors
+        le \(O;\vec{i};\vec{j}\) plan en deux dimensions. On appelle aussi ce plan en deux
+        dimension repère en deux dimensions, car on peut se repérer dans cette espace. <br>
+        Voici des exemple de repères : <br><br>
+        <div class="image">
+            <img src="img/repres2d.png" alt="3 repères en deux dimensions" width="800">
+        </div>
+    </h2>
+    </main>
+
+    <main>
+        <h2><u>Repère orthonormé :</u>
+            Un repère orthonormé est un repère qui ressemble au troisième repère (voir ci-dessus). <br>
+            On peut placer plusieurs représentants des vecteurs unitaires de manière adjacente
+            sur leur vecteur respectif pour pouvoir représenter les nombre positif, et de la même
+            manière pour les nombres négatif avec les représentants des vecteurs opposés : <br><br>
+            <div class="image">
+                <img src="img/repereavecnombres.png" alt="Repère en deux dimension avec des nombres" width="600">
+            </div>
+            <br><br>
+            Un repère est orthonormé si on a les vecteurs unitaires qui font la même taille et qu'ils sont normal entre eux,
+            en terme mathématique : \(\lVert\vec{i}\rVert = \lVert\vec{j}\rVert\) et \(\vec{i}.\vec{j} = 0\) <br>
+            On représente ainsi un repère orthonormé dans un logiel de géométrie : <br><br>
+            <div class="image">
+                <img src="img/repereorthonorme.png" alt="">
+            </div>
+            <br><br>
+            <u>Exercice :</u> Retrouver les coordonnées du point \(\) et exprimer les avec une somme de vecteurs. <br>
+            Exemple : Le point \(A(2{;}{-}6)\) s'exprime avec une somme de vecteurs ainsi : \(2\vec{i} - 6 \vec{j}\)
+        </h2>
+    </main>
+</body>
+</html>

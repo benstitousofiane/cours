@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" integrity="sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww" crossorigin="anonymous">
+
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js" integrity="sha384-hIoBPJpTUs74ddyc4bFZSM1TVlQDA60VBbJS0oA934VSz82sBx1X7kSx2ATBDIyd" crossorigin="anonymous"></script>
+
+    <!-- To automatically render math in text elements, include the auto-render extension: -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js" integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cours </title>
+</head>
+<body>
+    <h1>
+        Nombre complexe cours 2 - nombre complexe
+    </h1>
+    <main>
+        <h2>Dans cette partie du cours vous verrez plusieurs nouvelles notions les plus intéressentes
+            les unes les autres, vous verrez notament ce qu'est un nombre complexe ! Posez vous et
+            commenez à imaginer 😴🔢.
+        </h2>
+    </main>
+    <main>
+        <h2>
+            Lorsque l'on résous des équations du troisième degré, on doit parfois d'abord résoudre
+            des équations du second degré, le problème étant que l'on a parfois des équation comme ci-dessous à résoudre :
+            \(x^2 = -1\), or si l'on se place sur les nombres réel, il n'existe aucune solution. Mais rappelez-vous,
+            nous sommes en mathématique et nous crée des objets pour essayer de palier des problèmes
+        </h2>
+        <h2>
+            <u>Première approche sous la forme d'un modèle :</u> On notait au début \(\sqrt{-1}\) la solution à l'équation
+            \(x^2 = -1\), en français ça fonctionne : on appelle racine carré de \(x\) le nombre tel que mis au carré donne \(x\)
+            donc la racine carré de \(-1\) est le nombre tel que que mis au carré donne -1. <br>
+            Cette notation a été utilisé par le mathématicien Euler, avec cette notation on en déduis les racines de d'autres nombres négatifs :
+            \(\sqrt{ab} = \sqrt{a}\sqrt{b}\), donc \(\sqrt{-4} = 2\sqrt{-1}; \sqrt{-25} = 5\sqrt{-1}, \dots\), or cette notation contient une absurdité :
+            On dit que \(\sqrt{-1}^2 = -1\), or \(\sqrt{-1}^2 = \sqrt{(-1)\times(-1)} = \sqrt{1} = 1\), donc \(-1 = 1\) ??? 🤯 <br>
+            Pour corriger ce problème, notre mathématicien à imaginer une solution en 1777 qu'il va noté \(i\) pour "<u>i</u>maginaire"
+        </h2>
+    </main>
+    <main>
+        <h2><u>Nombre \(i\) : </u>
+            On note \(i\) la solution imaginaire de l'équation \(x^2 = -1\), soit \(\boxed{i^2 = -1}\), et ça c'est une clef qui ouvre pas mal de portes ! 🔓🔑 <br>
+            Nous avons grâce à ce nombre la solution à l'équation \(x^2 = -y \Longleftrightarrow x = \sqrt{y}i\), démonstration : \((\sqrt{y}i)^2 = \sqrt{y}^2i^2 = \boxed{-y}\)
+        </h2>
+        <h2><u>Remarque :</u> Bien qu'imaginaire, ce nombre décrit la réalité avec une très bonne précision, exemple avec la fonction d'onde et l'équation de Schrödinger.
+        </h2>
+        <h2><u>Ensemble des nombres complexe</u>, lorsque l'on résout une équation, on doit dire où est-ce qu'on la résout, je ne l'est pas préciser ci-dessus. <br>
+            Pour me faire pardonner je vous montre un ensemble qui permet de déterminer où est-ce qu'on résous l'équation ci-dessus,
+            il s'agit de l'ensemble des nombres complexes noté \(\boxed{\mathbb{C}}\), on appelle nombre complexe un nombre qui contient au plus le nombre imaginaire \(i\)
+            (on peut aller plus loin sur d'autres structures ensembliques : quaternion \(\mathbb{H}\), octavion \(\mathbb{O} \dots\)). <br>
+            Exemple de nombre complexe : \(1 + 2i \ ; \ 44 - 56i  \ ; 0 \ ; \ \dots\), on verra pourquoi \(0\) est un nombre complexe. On dit que \(i \in \mathbb{C}\)
+
+        </h2>
+    </main>
+</body>
+</html>
