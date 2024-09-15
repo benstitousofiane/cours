@@ -1,0 +1,62 @@
+L
+U Objectif : 
+T Si le roi est reconnu logiquement comme étant un roi, alors on montre que son fils perpetuera la tradition 
+br
+T (Ceci pour n'importe quelle descendance)
+
+br
+
+T Sur ce chapitre nous travaillons sur des entiers naturels.
+
+br
+T 	On note d'abord une propriété que l'on note
+M \mathscr{P}(n)
+T qui dépend d'un nombre
+M n \in \N
+br
+T Exemple : on note
+M \mathscr{P}(n) : 0 \times n = 0
+
+br
+M (i)
+U Initialisation :
+br
+T On montre qu'au rang (nombre)
+M n_0
+T , généralement
+M 0, 1, 2, 3
+T ou
+M 4
+T que
+M \mathscr{P}(n_0) 
+T est vraie.
+
+br
+M (ii)
+U Hérédité :
+br
+T On montre ensuite que
+M \mathscr{P}(n_0) \Longrightarrow \mathscr{P}(n_0 + 1) \Longrightarrow \mathscr{P}(n_0 + 2) \Longrightarrow \dots \Longrightarrow \mathscr{P}(n_0 + n) 
+T Mais c'est fastidieux... 😔
+br
+T ☆ف ! : Nous allons alors prodéder pour un certain rang
+M n \geqslant n_0
+T et montrer que
+M \mathscr{P}(n) \Longrightarrow \mathscr{P}(n+1)
+T en supposant que 
+M \mathscr{P}(n) 
+T est vraie.
+br
+
+M (iii)
+U Conclusion :
+br
+M \mathscr{P}(n)
+T est vraie au rang 
+M n_0
+T et héréditaire à partir de ce rang :
+M \forall n \geqslant n_0, \mathscr{P}(n)
+
+WS
+
+E

@@ -1,0 +1,67 @@
+LC
+T Cas de l'égalité
+M \forall n \in \N, u_n = \dots
+E
+
+WS
+
+L
+T Montrons que pour tout
+M n \in \N,
+T que si
+M u_{n+1} = u_n + r
+T alors
+M u_n = u_0 + nr
+T , avec
+M r \in \R
+br
+T On note
+M \mathscr{P}(n) : u_n = u_0 + nr
+br
+T Pour
+M n = 0
+T : 
+M u_0 + nr = u_0 + 0 \times r = \boxed{u_0}
+T , donc
+M \mathscr{P}(0)
+T est vraie.
+br
+T Supposons qu'il existe un 
+M n \in \N
+T tel que
+M u_n = u_0 + nr
+T .
+T Montrons alors que
+M u_{n+1} = u_0 + (n+1)r
+br
+T Soit
+M n \in \N
+T .
+br
+T Selon l'hypothèse (supposition) de récurrence :
+M u_{n+1} = u_n + r = u_0 + nr + r = u_0 + r(n+1) = \boxed{u_0 + (n+1)r}
+T , donc
+M \mathscr{P}(n)
+T est héréditaire.
+br
+T La propriété est vrai au rang
+M 0
+T et héréditaire à partir de ce rang :
+M \forall n \in \N, u_{n+1} = u_n + r \Longrightarrow u_n = u_0 + nr
+T .
+
+WS
+
+T Exercice : montrer que si pour tout
+M n \in \N
+T on a : 
+M u_{n+1} = u_n \times q
+T alors
+M u_n = u_0 \times q^n
+T , avec
+M q \in \R
+
+
+
+WS
+E
