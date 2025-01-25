@@ -13,12 +13,25 @@ style: |
   .petit {
     font-size : 30px
   }
+
+  .titreCouverture{
+    width: 1200px
+  }
+  .auteurCouverture{
+    width: 600px
+  }
 ---
-# La belle langue arabe
-Un ensemble de cours de la belle langue arabe par Benstitou Sofiane.
+<!-- backgroundColor : "white" -->
+<img class="titreCouverture" src="couverture.png">
+<img class="auteurCouverture" src="auteur.png" >
+
 
 ---
-# $(i)$ Les mots de liaisions
+# L'arabe étoilé ★
+Un ensemble de beaux cours pour apprendre la langue arabe par Benstitou Sofiane.
+
+---
+# $(i)$ Les mots de liaisons
 Pourquoi commencer par ça ? :
 - Présents partout et dans n'importe quelle contexte !
 - Pratiquer plus souvent
@@ -48,8 +61,7 @@ C’est Toi [Seul] que nous adorons, **et** c’est Toi [Seul] dont nous imploro
 <section class="arabe" >★ "mais" : لَكِنْ</section>
 <section class="arabe" >★★ "mais logique" : وَلَكِنْ </section>
 <section class="arabe" >★★★ "mais fort" : لَكِنَّ </section>
-<br>
-<section style="font-family : serif; font-size: 60px"><span class="arabe">وَلَكِنَّ</span> existe aussi.</section>
+<br><span class="arabe">وَلَكِنَّ</span> existe aussi.</section>
 
 ---
 ## Exemple d'oppositions :
@@ -80,6 +92,9 @@ C’est Toi [Seul] que nous adorons, **et** c’est Toi [Seul] dont nous imploro
 فَإِذَا مَسَّ ٱلْإِنسَـٰنَ ضُرٌّۭ دَعَانَا ثُمَّ إِذَا خَوَّلْنَـٰهُ نِعْمَةًۭ مِّنَّا قَالَ إِنَّمَآ أُوتِيتُهُۥ عَلَىٰ عِلْمٍۭ ۚ بَلْ هِىَ فِتْنَةٌۭ <span class="rouge">وَلَٰكِنَّ</span> أَكْثَرَهُمْ لَا يَعْلَمُونَ
 
 </section>
+<section class="petit">
+Quand un malheur touche l’homme, il Nous invoque. Quand ensuite Nous lui accordons une faveur de Notre part, il dit : "Je ne la dois qu’à [ma] science." C’est une épreuve, plutôt ; mais la plupart d’entre eux ne savent pas.
+</section>
 
 ---
 # Cause $\Leftarrow$
@@ -95,7 +110,6 @@ C’est Toi [Seul] que nous adorons, **et** c’est Toi [Seul] dont nous imploro
 </section>
 Il fait jour parce que le soleil s'est levé 
 
-
 ---
 # Exemple...
 
@@ -105,9 +119,9 @@ Il fait jour parce que le soleil s'est levé
 
 #### exemple :
 <section class="arabe">
-وَهُنَاكَ حَيَوَانَاتِ سَوْدَاءِ مِثْلُ الْغُرَابِ
+يُمْكِنُ تَعَلُّمُ لُغَاتٍ جَدِيدَةٍ، مثلًا العَرَبِيَّةُ أَوْ الفَرَنْسِيَّةُ
 </section>
-Il y a des animaux noirs comme les corbeaux
+On peut apprendre de nouvelles langues, par exemple l'arabe ou le français
 
 ---
 # Conséquence $\Rightarrow$
