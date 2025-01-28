@@ -49,7 +49,7 @@ Pourquoi commencer par ça ? :
 
 
 <section class="arabe">
-(٥, ١)إِيَّاكَ نَعْبُدُ <span class="rouge" style="color : red">وَ</span>إِيَّاكَ نَسْتَعِينُ
+(١,٥) إِيَّاكَ نَعْبُدُ <span class="rouge" style="color : red">وَ</span>إِيَّاكَ نَسْتَعِينُ
 
 </section>
 
@@ -64,7 +64,7 @@ C’est Toi [Seul] que nous adorons, **et** c’est Toi [Seul] dont nous imploro
 <br><span class="arabe">وَلَكِنَّ</span> existe aussi.</section>
 
 ---
-## Exemple d'oppositions :
+## Exemples d'oppositions :
 <section class="arabe" >
 ★ (٣٩,٢٠) : <br>
 <span class="rouge">لَـٰكِنِ</span> ٱلَّذِينَ ٱتَّقَوْا۟ رَبَّهُمْ لَهُمْ غُرَفٌۭ مِّن فَوْقِهَا غُرَفٌۭ مَّبْنِيَّةٌۭ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ ۖ وَعْدَ ٱللَّهِ ۖ لَا يُخْلِفُ ٱللَّهُ ٱلْمِيعَادَ
@@ -135,3 +135,33 @@ On peut apprendre de nouvelles langues, par exemple l'arabe ou le français
 فَسُبْحَـٰنَ ٱلَّذِى بِيَدِهِۦ مَلَكُوتُ كُلِّ شَىْءٍۢ وَإِلَيْهِ تُرْجَعُونَ
 </section>
 Louange donc, à Celui qui détient en sa main la royauté sur toute chose ! Et c’est vers Lui que vous serez ramenés.
+
+---
+# But🎯
+<br>
+<!-- l'utiliser dans le cours sur les groupes -->
+<!-- <section class="arabe" >★ "pour" : (...)لِـ</section> --> 
+<section class="arabe" >★ "pour" : مِنْ أَجْلِ</section>
+<section class="arabe" >★★ "pour (précis)" : بِغَرَضِ </section>
+
+---
+## Exemples de buts :
+<!-- l'utiliser pour les groupes -->
+<section class="arabe" >
+★ <br>
+أَعْمَلُ مِنْ أَجْلِ النَّجَاحِ
+</section>
+
+
+<div class="petit">
+Je travaille pour réussir.
+<div>
+
+
+---
+<section class="arabe" >
+★★  <br>
+سَافَرَ بِغَرَضِ الدِّرَاسَةِ
+ </section>
+
+Il a voyagé pour étudier.
