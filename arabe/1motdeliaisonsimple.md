@@ -33,10 +33,10 @@ Un ensemble de beaux cours pour apprendre la langue arabe par Benstitou Sofiane.
 ---
 # $(i)$ Les mots de liaisons
 Pourquoi commencer par ça ? :
-- Présents partout et dans n'importe quelle contexte !
+- Présents partout et dans n'importe quel contexte !
 - Pratiquer plus souvent
 
-**<u> Compétence :</u>** Suivre pratique pour suivre les différentes étapes d'une démarche.
+**<u> Compétence :</u>** Suivre les différentes étapes d'une démarche.
 
 ---
 
