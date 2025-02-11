@@ -1,0 +1,6 @@
+Mettre les voyels : https://tahadz.com/mishkal
+
+Trouver les mots avec l'IA : DeepSeek
+Trouver des exemple : traduit depuis google trad et retravaillés
+
+Diaporama : fait en MarkDown avec l'extension Marp sur Visual Studio Code
